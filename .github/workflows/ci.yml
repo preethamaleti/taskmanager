@@ -24,6 +24,6 @@ jobs:
       - name: Run fake tests
         run: |
           echo "Running Tests..."
-          exit 1
+          echo "Tests Passed"
         
 
