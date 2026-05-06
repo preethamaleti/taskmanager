@@ -20,3 +20,10 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean install
+
+      - name: Run fake tests
+        run: |
+          echo "Running Tests..."
+          exit 1
+        
+
