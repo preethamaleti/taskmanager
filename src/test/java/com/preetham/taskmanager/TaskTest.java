@@ -8,7 +8,7 @@ public class TaskTest {
 
     @Test
     void testAddition() {
-        int result = 2 + 1;
+        int result = 2 + 2;
         assertEquals(4, result);
     }
 }
